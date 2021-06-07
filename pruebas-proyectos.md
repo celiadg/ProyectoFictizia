@@ -39,5 +39,5 @@ Hacemos lo siguiente para probar si está todo bien:
 5. 	**BORRO el código que he puesto de prueba** para que no nos quede ahí para el taller.
 
 
-![Prueba watch-sass](images/prueba-watch-sass.jpg)
+![Prueba watch-sass](images/watch-sass.jpg)
 
