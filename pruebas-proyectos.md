@@ -1,7 +1,9 @@
 ## **Probando el entorno de la rama CSS-WORKSHOP-CRAFTER-WEB**
-Abrimos el proyecto desde VS Code, (podemos cambiar de rama directamente dentro del editor).  
+Abrimos el proyecto desde VS Code. Podemos cambiar de rama directamente dentro del editor (1).  
 
 Hacemos lo siguiente para probar si está todo bien:  
+
+![Prueba server-git-sass](images/prueba-server-git-sass.jpg)
 
 1. 	**Ver si se activa el visor de git (1) y el live server (2)**. (Salen en la barra de estado).
 
@@ -18,30 +20,21 @@ Hacemos lo siguiente para probar si está todo bien:
 	Si nada de esto funciona, haced algún plan para el día del taller y no vengáis. :-P
 	
 	Es broma, enviadme un mail y lo intentamos solucionar.  
-	
-	
-	
-	![Prueba bootstrap example](images/prueba-bootstrap.jpg)
 
 
-## **Probando el entorno de la rama CSS-WORKSHOP-CRAFTER-WEB**
-Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que funciona todo bien.
+2. 	**Ver si se activa compilador de SASS**.
 
-1. 	Ver si se activa el **compilador de SASS**.
-
-	Tiene que salir en la barra de estado **"Watch Sass"**.
+	Tiene que salir también en la barra de estado (4) **"Watch Sass"**.
 	
-	![Prueba web crafter](images/watch.png)
-	
-2. 	**Poner en marcha el compilador Sass**
+3. 	**Poner en marcha el compilador Sass**
 
 	Arranco el compilador pulsando donde pone **“Watch Sass”** cambiará a **“Watching…”** y en consola nos dice que está escuchando.(1)
 
-3. 	**Probar el compilador Sass**
+4. 	**Probar el compilador Sass**
 
 	Me voy a **steps/01/_site.scss** (2), lo abro, pongo arriba del todo cualquier cosa en css (3), guardo, y **me aseguro que me está modificando styles.min.css dentro de dist/css/** (4)
 
-4. 	**BORRO el código que he puesto de prueba** para que no nos quede ahí para el taller.
+5. 	**BORRO el código que he puesto de prueba** para que no nos quede ahí para el taller.
 
 	![Prueba web crafter](images/prueba-web.jpg)
 
