@@ -1,4 +1,7 @@
-## **ENTORNO DE TRABAJO CON VISUAL STUDIO CODE**
+## **ENTORNO DE TRABAJO**
+Es necesario que tengáis instalado git en vuestra máquina si queréis acceder al repositorio desde VSCode.  
+
+## **VISUAL STUDIO CODE**
 Trabajaremos con Visual Studio Code. Si ya lo tenéis instalado, solo hace falta que os instaléis las extensiones (punto 2.)
 
 ### **Instrucciones:**
@@ -26,8 +29,7 @@ Trabajaremos con Visual Studio Code. Si ya lo tenéis instalado, solo hace falta
 
 3. 	Una vez instalada, donde ponía “Install” ahora pone **“Installed”**. También puede poner **“Reload”**, si es así, le damos para reiniciar VS Code.
 
-5.  Cuando hayáis instalado todas, en la caja de búsqueda escribid: **@installed** y eso os mostrará las extensiones que tenéis instaladas. Confirmad que son todas las que os puse arriba.
-	(No os fijéis en las que salen en la imagen, fijaos en la lista que os puse antes).
+5.  Cuando hayáis instalado todas, en la caja de búsqueda escribid: **@installed** o seleccionad **"Installed"** con el filtro, así os mostrará las extensiones que tenéis instaladas. Confirmad que son todas las que os puse arriba.
 
 
 	![Extensiones instaladas](images/extensiones-instaladas.png)
