@@ -1,5 +1,5 @@
 ## **Probando el entorno de la rama CSS-WORKSHOP-CRAFTER-WEB**
-Abrimos el proyecto desde VS Code, (podemos cambiar de rama directamente dentro del editor).  
+Abrimos el proyecto desde VS Code. Podemos cambiar de rama directamente dentro del editor (1).  
 
 Hacemos lo siguiente para probar si está todo bien:  
 
@@ -20,14 +20,13 @@ Hacemos lo siguiente para probar si está todo bien:
 	Es broma, enviadme un mail y lo intentamos solucionar.  
 	
 	
-	
-	![Prueba bootstrap example](images/prueba-bootstrap.jpg)
+	![Prueba web crafter](images/prueba-server-git.jpg)
 
 
 ## **Probando el entorno de la rama CSS-WORKSHOP-CRAFTER-WEB**
 Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que funciona todo bien.
 
-1. 	Ver si se activa el **compilador de SASS**.
+1. 	**Ver si se activa compilador de SASS**.
 
 	Tiene que salir en la barra de estado **"Watch Sass"**.
 	
