@@ -3,8 +3,6 @@ Abrimos el proyecto desde VS Code. Podemos cambiar de rama directamente dentro d
 
 Hacemos lo siguiente para probar si está todo bien:  
 
-![Prueba server-git-sass](images/prueba-server-git-sass.png)
-
 1. 	**Ver si se activa el visor de git (1) y el live server (2)**. (Salen en la barra de estado).
 
 	Pulsad en "Go Live" (2) y debería abrirse el proyecto en el navegador.
@@ -24,7 +22,11 @@ Hacemos lo siguiente para probar si está todo bien:
 
 2. 	**Ver si se activa compilador de SASS**.
 
-	Tiene que salir también en la barra de estado (4) **"Watch Sass"**.
+	Tiene que salir también en la barra de estado (4) **"Watch Sass"**.  
+	
+
+![Prueba server-git-sass](images/prueba-server-git-sass.png)	
+	
 	
 3. 	**Poner en marcha el compilador Sass**
 
@@ -36,5 +38,6 @@ Hacemos lo siguiente para probar si está todo bien:
 
 5. 	**BORRO el código que he puesto de prueba** para que no nos quede ahí para el taller.
 
-	![Prueba web crafter](images/prueba-web.jpg)
+
+![Prueba watch-sass](images/prueba-watch-sass.jpg)
 
