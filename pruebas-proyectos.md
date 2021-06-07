@@ -3,7 +3,7 @@ Abrimos el proyecto desde VS Code. Podemos cambiar de rama directamente dentro d
 
 Hacemos lo siguiente para probar si está todo bien:  
 
-![Prueba server-git-sass](images/prueba-server-git-sass.jpg)
+![Prueba server-git-sass](images/prueba-server-git-sass.png)
 
 1. 	**Ver si se activa el visor de git (1) y el live server (2)**. (Salen en la barra de estado).
 
