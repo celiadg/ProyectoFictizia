@@ -1,16 +1,13 @@
-Taller de CSS para programadores fullstack
-===========================================
-Este repositorio alberga el codigo fuente utilizado en el "Taller de CSS para programadores fullstack".
+Taller de CSS para Developers
+=============================
+Este repositorio alberga el codigo fuente utilizado en el "Taller de CSS para Developers".
 
 Contenido:
 ----------------------
 ### Rama css-workshop-docs
-Contiene distinta documentación e instrucciones:  
-- Instrucciones de instalación del entorno de trabajo.  
+Contiene distinta documentaciÃ³n e instrucciones:  
+- Instrucciones de instalaciÃ³n del entorno de trabajo.  
 - Slides del taller una vez terminado.
-
-### Rama css-workshop-bootstrap-example
-Contiene todos los archivos del theme de Bootstrap (https://startbootstrap.com/template-overviews/freelancer/) que utilizaremos para aprender a customizarlo.
 
 ### Rama css-workshop-crafter-web
 Contiene todos los archivos de la web que vamos a hacer progresivamente (steps) durante el taller.
@@ -18,3 +15,4 @@ Contiene todos los archivos de la web que vamos a hacer progresivamente (steps) 
 Contacto:
 ----------------------
 Twitter: [@diana_aceves_](https://twitter.com/diana_aceves_)
+Email: d.aceves@fictizia.es
