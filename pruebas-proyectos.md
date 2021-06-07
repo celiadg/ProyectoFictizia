@@ -30,7 +30,7 @@ Hacemos lo siguiente para probar si está todo bien:
 	
 3. 	**Poner en marcha el compilador Sass**
 
-	Arranco el compilador pulsando donde pone **“Watch Sass”** cambiará a **“Watching…”** y en consola nos dice que está escuchando.(1)
+	Arranco el compilador pulsando donde pone **“Watch Sass”** cambiará a **“Watching…”** y en consola nos dice que está escuchando.(siguiente imagen, 1)
 
 4. 	**Probar el compilador Sass**
 
