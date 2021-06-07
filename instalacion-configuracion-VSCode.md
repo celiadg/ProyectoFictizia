@@ -1,4 +1,7 @@
-## **ENTORNO DE TRABAJO CON VISUAL STUDIO CODE**
+## **ENTORNO DE TRABAJO**
+Es necesario que tengáis instalado git en vuestra máquina si queréis acceder al repositorio desde VSCode.  
+
+## **VISUAL STUDIO CODE**
 Trabajaremos con Visual Studio Code. Si ya lo tenéis instalado, solo hace falta que os instaléis las extensiones (punto 2.)
 
 ### **Instrucciones:**
