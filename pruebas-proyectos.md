@@ -1,14 +1,13 @@
 ## **Probando el entorno de la rama CSS-WORKSHOP-CRAFTER-WEB**
-Abrimos el proyecto desde VS Code. Si teneis git, podemos cambiar de rama directamente dentro del editor. Si no, abrimos el proyecto **"CSS-WORKSHOP-CRAFTER-WEB"**.  
-(Las partes en las que me refiero a cosas de Git, evidentemente solo deben tenerlas en cuenta los que tengáis Git).
+Abrimos el proyecto desde VS Code, (podemos cambiar de rama directamente dentro del editor).  
 
 Hacemos lo siguiente para probar si está todo bien:  
 
-1. 	**Ver si se activa el visor de git (1) y el live server (2)**, salen en la barra de estado.
+1. 	**Ver si se activa el visor de git (1) y el live server (2)**. (Salen en la barra de estado).
 
 	Pulsad en "Go Live" (2) y debería abrirse el proyecto en el navegador.
 
-	(Nota: el servidor está configurado en el puerto 3001, si lo tenéis ocupado con otra cosa tenéis que cambiarlo en los user settings, si no sabéis, me lo decís).
+	Nota: el servidor está configurado en el puerto 3001, si lo tenéis ocupado con otra cosa tenéis que cambiarlo en los user settings, si no sabéis, me lo decís.
 	
 	No me sale, ¿qué hago?:
 
@@ -26,7 +25,7 @@ Hacemos lo siguiente para probar si está todo bien:
 
 
 ## **Probando el entorno de la rama CSS-WORKSHOP-CRAFTER-WEB**
-Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que funciona todo bien. (Si no tenéis git, abrís el proyecto correspondiente).
+Entráis en dicha rama desde VSCode y hacéis lo siguiente para asegurarnos que funciona todo bien.
 
 1. 	Ver si se activa el **compilador de SASS**.
 
