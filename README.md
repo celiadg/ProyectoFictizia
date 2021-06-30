@@ -15,4 +15,4 @@ Contiene todos los archivos de la web que vamos a hacer progresivamente (steps) 
 Contacto:
 ----------------------
 Twitter: [@diana_aceves_](https://twitter.com/diana_aceves_)  
-Email: d.aceves@fictizia.es
+Email: d.aceves@gmail.com
