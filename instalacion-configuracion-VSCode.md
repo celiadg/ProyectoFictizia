@@ -17,8 +17,7 @@ Trabajaremos con Visual Studio Code. Si ya lo tenéis instalado, solo hace falta
 
 	Las extensiones que necesitamos son las siguientes:  
 	- Sass (Robin Bentley)  
-	- Ash Scss Snippets  
-	- eCSStractor for VSCode  
+	- Ash Scss Snippets 
 	- Live Sass Compiler  
 	- Live Server
 
