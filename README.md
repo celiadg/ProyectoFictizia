@@ -1,6 +1,6 @@
-Taller de CSS para Developers
+Taller de CSS para developers
 =============================
-Este repositorio alberga el codigo fuente utilizado en el "Taller de CSS para Developers".
+Este repositorio alberga el codigo fuente utilizado en el "Taller de CSS para developers".
 
 Contenido:
 ----------------------
