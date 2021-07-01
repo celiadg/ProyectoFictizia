@@ -24,7 +24,7 @@ Trabajaremos con Visual Studio Code. Si ya lo tenéis instalado, solo hace falta
     Entro en la parte de “Extensiones” (1) y voy escribiendo los nombres de las extensiones necesarias en la caja de búsqueda (2), la selecciono (3) y le doy a “Install” (4).
 
 
-	![Instalación extensiones](images/instalacion-extensiones.jpg)
+	![Instalación extensiones](images/instalacion-extensiones.png)
 
 3. 	Una vez instalada, donde ponía “Install” ahora pone **“Installed”**. También puede poner **“Reload”**, si es así, le damos para reiniciar VS Code.
 
