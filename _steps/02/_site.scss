@@ -102,7 +102,7 @@ h3 {
   //     transform: translateX(0);
   //   }
   &__button {
-	color: $blue-dark;
+    color: $blue-dark;
     text-transform: uppercase;
     font-weight: bold;
     padding: 1em;
@@ -232,15 +232,14 @@ h3 {
 	}
 } */
 
-
 //$colors: $blue-dark, #EC841C, #004C67, #4BC2C4, #009DE0, #212121, #4F137C, #2A8EF7, #02497E, #0F159F;
 
 @for $i from 1 through 10 {
-	.sponsors-#{$i} {
-		background-image: url("../../img/sponsors/logo-#{$i}.svg");
-		background-color: $sponsors-bg;
-		//background-color: nth($colors, $i);
-	}
+  .sponsors-#{$i} {
+    background-image: url("../../img/sponsors/logo-#{$i}.svg");
+    background-color: $sponsors-bg;
+    //background-color: nth($colors, $i);
+  }
 }
 
 //FOOTER
@@ -248,13 +247,13 @@ h3 {
   background-color: $blue-dark;
   color: white;
   height: $footer-height;
-  a{
-	  color: white;
-	  text-decoration: none;
-	  transition: color .6s;
-	  &:hover{
-		  color: rgb(29, 161, 242);
-	  }
+  a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.6s;
+    &:hover {
+      color: $blue;
+    }
   }
 
   /*** PRÁCTICA STEP 1:

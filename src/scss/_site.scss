@@ -120,7 +120,7 @@ h3 {
     transform: translateX(0);
   }
   &__button {
-	color: $blue-dark;
+    color: $blue-dark;
     text-transform: uppercase;
     font-weight: bold;
     padding: 1em;
@@ -256,6 +256,13 @@ h3 {
   text-align: center;
   &__grid {
     margin-top: 2rem;
+    /*** PRÁCTICA STEP 2:
+	- En lugar de dar un margin-bottom a los sponsors__item,
+	  como ya sé que el diseño debe evolucionar a un grid,
+	  le pongo directamente el grid y su gap.
+	***/
+    display: grid;
+    grid-gap: 1rem;
   }
   &__item {
     background-repeat: no-repeat;
@@ -282,13 +289,13 @@ h3 {
   background-color: $blue-dark;
   color: white;
   height: $footer-height;
-  a{
-	  color: white;
-	  text-decoration: none;
-	  transition: color .6s;
-	  &:hover{
-		  color: rgb(29, 161, 242);
-	  }
+  a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.6s;
+    &:hover {
+      color: $blue;
+    }
   }
 
   /*** PRÁCTICA STEP 1:
