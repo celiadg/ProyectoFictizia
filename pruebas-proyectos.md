@@ -1,7 +1,5 @@
 ## **Probando el entorno de la rama CSS-WORKSHOP-CRAFTER-WEB**
 
-**IMPORTANTE: EL PROYECTO NO ESTARÁ DISPONIBLE HASTA DESPUÉS DE LA PRIMERA SESIÓN DEL TALLER. TODAS LAS INSTRUCCIONES DE ESTE DOCUMENTO SON PARA UN PROYECTO QUE AÚN NO ESTÁ SUBIDO AL REPOSITORIO. NO TENÉIS QUE HACER NADA DE ESTO HASTA DESPUÉS DE LA PRIMERA SESIÓN.**
-
 Abrimos el proyecto desde VS Code. Podemos cambiar de rama directamente dentro del editor (1).  
 
 Hacemos lo siguiente para probar si está todo bien:  
