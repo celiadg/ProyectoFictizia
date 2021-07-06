@@ -1,148 +1,140 @@
-/*********** PROJECT CUSTOM RESETS ***********/
-button {
-	border: none;
-	appearance: none;
-	background-color: transparent;
-	outline: none;
-}
-ul {
-	list-style: none;
-}
 /*********** ELEMENTS ***********/
 body {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.5;
-	background-color: white;
-	font-weight: $light;
-	color: $blue-dark;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  background-color: white;
+  font-weight: $light;
+  color: $blue-dark;
 
-	/*** PRÁCTICA STEP 1:
+  /*** PRÁCTICA STEP 1:
 	FOOTER SIEMPRE ABAJO:
 	BODY -> DISPLAY FLEX
 			+FLEX COLUMN
 			+MIN-HEIGHT 100VH
 	MAIN -> FLEX-GROW:1
 	***/
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1,
 h2,
 h3 {
-	font-weight: normal;
-	text-transform: uppercase;
-	font-family: 'Biryani';
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: "Biryani";
 }
 
 h2,
 h3 {
-	letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 /******** GLOBAL CLASSES ********/
 .svg {
-	width: 100%;
-	height: 100%;
-	display: block;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 /******** SECTIONS ********/
 //HEADER
 .header {
-	&--main {
-		background-color: #fff;
-		font-size: .85em;
-		font-weight: $bold;
-	}
-	&__wrapper {
-		@include wrapper(85%, rem(1200));
-		height: $header-height;
+  &--main {
+    background-color: #fff;
+    font-size: 0.85em;
+    font-weight: $bold;
+    box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+  }
+  &__wrapper {
+    @include wrapper(85%, rem(1200));
+    height: $header-height;
 
-		/*** PRÁCTICA STEP 1:
+    /*** PRÁCTICA STEP 1:
 		EL HEADER ES UN FLEXBOX PARA CENTRAR EN
 		VERTICAL LOS ELEMENTOS Y DISTRIBUIRLOS
-		EN HORIZONTAL: LOGO AUN LADO, MENÚ BUTTON
+		EN HORIZONTAL: LOGO A UN LADO, MENÚ BUTTON
 		AL OTRO LADO.
 		***/
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .logo {
-	color: $blue-dark;
-	font-size: 1.1rem;
+  color: $blue-dark;
+  font-size: 1.1rem;
 
-	/*** PRÁCTICA STEP 1:
+  /*** PRÁCTICA STEP 1:
 	EL LOGO ES OTRO FLEXBOX PARA CENTRAR
 	EL NOMBRE Y EL ICONO EN VERTICAL
 	***/
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 
-	&__icon {
-		height: rem(48);
-		width: rem(40);
-		margin-right: .5rem;
-	}
-	&__text{
-		position: relative;
-		top: 0.1em;
-	}
+  &__icon {
+    height: rem(48);
+    width: rem(40);
+    margin-right: 0.5rem;
+  }
+  &__text {
+    position: relative;
+    top: 0.1em;
+  }
 }
 
 .menu {
-	background: $blue;
-    position: fixed;
-	top: $header-height;
-	left: 0;
-    width: 100%;
-    text-align: center;
-	height: 100vh;
-	padding-top: 3em;
-	list-style: none;
+  //   background: $blue;
+  //   position: fixed;
+  //   top: $header-height;
+  //   left: 0;
+  //   width: 100%;
+  //   text-align: center;
+  //   height: 100vh;
+  //   padding-top: 3em;
+  //   list-style: none;
 
-	transform: translateX(100%);
-	transition: transform .6s;
-	&.is-visible {
-		transform: translateX(0)
-	}
-	&__button {
-		text-transform: uppercase;
-		font-weight: bold;
-		padding: 1em;
+  //   transform: translateX(100%);
+  //   transition: transform 0.6s;
+  //   &.is-visible {
+  //     transform: translateX(0);
+  //   }
+  &__button {
+	color: $blue-dark;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1em;
 
-		/*** PRÁCTICA STEP 1:
+    /*** PRÁCTICA STEP 1:
 		MOVEMOS EL BOTÓN PARA QUE ESTÉ
 		VISUALMENTE ALINEADO
 		***/
-		position: relative;
-		left: 1em;
-	}
-	&__item {
-		font-size: 1.2em;
-	}
-	a {
-		display: block;
-		padding: 1.5em 0;
-		color: white;
-		letter-spacing: .05em;
-	}
+    position: relative;
+    left: 1em;
+  }
+  &__item {
+    font-size: 1.2em;
+  }
+  a {
+    display: block;
+    padding: 1.5em 0;
+    color: white;
+    letter-spacing: 0.05em;
+  }
 }
 
 //SECTIONS
 .main {
-	/*** PRÁCTICA STEP 1:
+  /*** PRÁCTICA STEP 1:
 	FOOTER SIEMPRE ABAJO:
 	BODY -> DISPLAY FLEX
 			+FLEX COLUMN
 			+MIN-HEIGHT 100VH
 	MAIN -> FLEX-GROW:1
 	***/
-	flex-grow: 1;
+  flex-grow: 1;
 }
 
 /* .section {
@@ -152,7 +144,7 @@ h3 {
 	}
 	h2 {
 		font-size: 2em;
-		text-align: center;
+
 	}
 }
 
@@ -160,7 +152,6 @@ h3 {
 .intro {
 	background-color: $blue-dark;
 	color: white;
-	text-align: center;
 
 	p:not(:last-child) {
 		margin-bottom: 2em;
@@ -177,11 +168,10 @@ h3 {
 	}
 }
 
-//SECTION TALKS
-.talks {
+//SECTION about
+.about {
 	background-color: #F17C72;
 	color: white;
-	text-align: center;
 	&__item {
 		margin-bottom: 4rem;
 	}
@@ -198,7 +188,7 @@ h3 {
 
 .icon {
 	&-light {
-		background-color: #37394A;
+		background-color: $blue-dark;
 		padding: 1.5rem;
 	}
 
@@ -230,7 +220,6 @@ h3 {
 
 //SECTION SPONSORS
 .sponsors {
-	text-align: center;
 	&__grid {
 		margin-top: 2rem;
 	}
@@ -241,10 +230,10 @@ h3 {
 		height: 10rem;
 		width: 100%;
 	}
-}
+} */
 
 
-$colors: #37394A, #EC841C, #004C67, #4BC2C4, #009DE0, #212121, #4F137C, #2A8EF7, #02497E, #0F159F;
+//$colors: $blue-dark, #EC841C, #004C67, #4BC2C4, #009DE0, #212121, #4F137C, #2A8EF7, #02497E, #0F159F;
 
 @for $i from 1 through 10 {
 	.sponsors-#{$i} {
@@ -252,18 +241,26 @@ $colors: #37394A, #EC841C, #004C67, #4BC2C4, #009DE0, #212121, #4F137C, #2A8EF7,
 		background-color: $sponsors-bg;
 		//background-color: nth($colors, $i);
 	}
-} */
+}
 
 //FOOTER
 .footer--main {
-	background-color: $blue-dark;
-	color: white;
-	height: $footer-height;
+  background-color: $blue-dark;
+  color: white;
+  height: $footer-height;
+  a{
+	  color: white;
+	  text-decoration: none;
+	  transition: color .6s;
+	  &:hover{
+		  color: rgb(29, 161, 242);
+	  }
+  }
 
-	/*** PRÁCTICA STEP 1:
+  /*** PRÁCTICA STEP 1:
 	CENTRAR EN HORIZONTAL Y VERTICAL
 	***/
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
