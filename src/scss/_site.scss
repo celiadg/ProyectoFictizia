@@ -223,6 +223,30 @@ h3 {
   h2 {
     margin-bottom: 2rem;
   }
+  /*** PRÁCTICA STEP 3:
+RESPONSIVE:
+- MEDIA QUERIES MOBILE FIRST MIN-WIDTH DENTRO DEL COMPONENTE
+***/
+  @media screen and (min-width: em(768)) {
+    &__item {
+      margin-bottom: 4rem;
+      display: flex;
+      align-items: center;
+      column-gap: 2rem;
+
+      &:nth-child(2n) {
+        flex-direction: row-reverse;
+        text-align: right;
+      }
+      &:nth-child(2n + 1) {
+        text-align: left;
+      }
+    }
+    &__icon {
+      flex-shrink: 0;
+      margin-bottom: 0;
+    }
+  }
 }
 
 .icon {
@@ -359,37 +383,6 @@ RESPONSIVE:
       &.is-active {
         text-decoration: underline;
       }
-    }
-  }
-
-  .about {
-    text-align: left;
-    &__item {
-      margin-bottom: 4rem;
-      /*** PRÁCTICA STEP 3:
-			ICONO + TEXTO -> UNA COSA AL LADO DE OTRA -> FLEXBOX
-			***/
-      display: flex;
-      align-items: center;
-      &:nth-child(2n) {
-        flex-direction: row-reverse;
-        text-align: right;
-        .about__icon {
-          margin-right: 0;
-          margin-left: 2em;
-        }
-      }
-    }
-    &__icon {
-      margin-bottom: 0;
-      margin-right: 2em;
-      /*** PRÁCTICA STEP 3:
-			PARA QUE NO SE ENCOJAN LOS ICONOS
-			***/
-      flex-shrink: 0;
-    }
-    h2 {
-      margin-bottom: 2rem;
     }
   }
 
