@@ -326,6 +326,7 @@ RESPONSIVE: MEDIA QUERIES MOBILE FIRST MIN-WIDTH
 		PONER COSAS UNAS AL LADO DE OTRAS -> FLEX
 		***/
     display: flex;
+    gap: 0.5em;
 
     /*** PRÁCTICA STEP 3:
 		IGUAL QUE CON EL BOTÓN "MENU",
@@ -344,8 +345,16 @@ RESPONSIVE: MEDIA QUERIES MOBILE FIRST MIN-WIDTH
     }
     a {
       padding: 1em;
-      margin-left: 0.5em;
       color: $blue-dark;
+
+	/*** PRÁCTICA STEP 3:
+		Efecto hover + link activo
+	***/
+
+      &:hover,
+      &.is-active {
+        text-decoration: underline;
+      }
     }
   }
 
