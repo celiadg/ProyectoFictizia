@@ -168,12 +168,16 @@ h3 {
 
 .section {
   padding: 6rem 0;
+  /*** PRÁCTICA STEP 2:
+		CENTRAR ELEMENTOS HACIÉNDOLES
+		COMPORTARSE COMO TEXTO
+		***/
+  text-align: center;
   &__wrapper {
     @include wrapper(75%, rem(700));
   }
   h2 {
     font-size: 2em;
-    text-align: center;
   }
 }
 
@@ -181,7 +185,6 @@ h3 {
 .intro {
   background-color: $blue-dark;
   color: white;
-  text-align: center;
 
   p:not(:last-child) {
     margin-bottom: 2em;
@@ -202,7 +205,6 @@ h3 {
 .about {
   background-color: #f17c72;
   color: white;
-  text-align: center;
   &__item {
     margin-bottom: 4rem;
   }
@@ -257,7 +259,6 @@ h3 {
 
 //SECTION SPONSORS
 .sponsors {
-  text-align: center;
   &__grid {
     margin-top: 2rem;
     /*** PRÁCTICA STEP 2:

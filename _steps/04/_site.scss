@@ -168,6 +168,11 @@ h3 {
 
 .section {
   padding: 6rem 0;
+      /*** PRÁCTICA STEP 2:
+		CENTRAR ELEMENTOS HACIÉNDOLES
+		COMPORTARSE COMO TEXTO
+		***/
+  text-align: center;
   &__wrapper {
     @include wrapper(75%, rem(700));
   }
